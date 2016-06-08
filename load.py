@@ -2,11 +2,11 @@
 import redis
 import csv
 
-file_router = 'router-08_06_2016.csv'
+file_router = '/var/jdata/router.xlsx'
 # количество строк заголовка таблицы
 table_header = 2
 
-file_port_all = 'Port_All_New_201604210000_883.csv'
+file_port_all = '/var/jdata/bd.csv'
 # пропустить заголовок
 skip_header = True
 # разделитель
@@ -15,7 +15,7 @@ delimiter = ','
 # хост Redis
 host = 'localhost'
 # порт Redis
-port = 6379
+port = 6380
 # Прогрузка в отдельные бд Redis
 db0, db1 = 0, 1
 
