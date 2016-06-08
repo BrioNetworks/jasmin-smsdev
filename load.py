@@ -2,7 +2,7 @@
 import redis
 import csv
 
-file_router = '/var/jdata/router.xlsx'
+file_router = '/var/jdata/router.csv'
 # количество строк заголовка таблицы
 table_header = 2
 
